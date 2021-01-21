@@ -41,6 +41,15 @@
 
   &-img {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+  
+
+    &-text {
+      display: flex;
+      position: relative;
+      text-align: center;
+    }
 
     &-text1 {
       background: url(../images/hero_img_1.svg);
@@ -60,9 +69,16 @@
       height: 183px;
     }
     &-text4 {
+      position: absolute;
       background: url(../images/hero_img_4.svg);
       width: 176px;
       height: 141px;
+      top: 140%;
+      right: 48px;
+    }
+
+    img {
+      margin: 0 auto;
     }
   }
 

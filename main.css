@@ -242,6 +242,21 @@ ul {
 
 .hero-img {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero-img-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-align: center;
 }
 
 .hero-img-text1 {
@@ -263,8 +278,15 @@ ul {
 }
 
 .hero-img-text4 {
+  position: absolute;
   background: url(../images/hero_img_4.svg);
   width: 176px;
   height: 141px;
+  top: 140%;
+  right: 48px;
+}
+
+.hero-img img {
+  margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */
