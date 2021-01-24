@@ -26,16 +26,19 @@
       color: $text-grey;
       margin-bottom: 53px;
     }
+  }
 
-    &-btn {
-      padding: 26px 49px;
-      margin-bottom: 66px;
-      font-size: 1rem;
-    }
+  &-btn {
+    font-size: 1rem;
+    max-width: 339px;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 66px;
   }
 
   &-video {
     max-width: 277px;
+    min-height: 182px;
   }
 
   &-img {
@@ -63,8 +66,8 @@
       background: url(../images/hero_img_1.svg);
       max-width: 213px;
       height: 160px;
-      top: 160px;
-      left: 0;
+      top: 23%;
+      left: -3%;
       padding-bottom: 20px;
 
         & p {

@@ -1,0 +1,52 @@
+.courses {
+  padding-top: 60px;
+
+  &-container {
+    width: 1173px;
+    
+  }
+  &-title {
+    margin-bottom: 40px;
+  }
+
+  &-list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    &-item {
+      max-width: 325px;
+      text-align: center;
+      padding-top: 180px;
+      width: 100%;
+      margin-bottom: 32px;
+
+      & p {
+        margin-bottom: 41px;
+        font-size: 1.14rem;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+      }
+    }
+
+    &-img1 {
+      background: url(../images/courses-img1.png) center top no-repeat;
+    }
+
+    &-img2 {
+      background: url(../images/courses-img2.png) center top no-repeat;
+    }
+    &-img3 {
+      background: url(../images/courses-img3.png) center top no-repeat;
+    }
+    &-img4 {
+      background: url(../images/courses-img4.png) center top no-repeat;
+    }
+
+    &-btn {
+      width: 100%;
+      max-width: 194px;
+      height: 50px;
+    }
+  }

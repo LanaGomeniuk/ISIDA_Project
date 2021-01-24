@@ -40,6 +40,8 @@ ul {
 }
 
 .btn {
+  text-transform: uppercase;
+  font-size: 0.928rem;
   background-color: $btn-color;
   color: #ffffff;
   cursor: pointer;
@@ -54,4 +56,28 @@ ul {
   border: 2px solid #ee0033;
   background-color: $bgc-color;
   color: #E03435;
+}
+
+.title {
+  font-size: 2.14rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  html {
+    font-size: 13px;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .courses-list {
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0;
+  }
 }
