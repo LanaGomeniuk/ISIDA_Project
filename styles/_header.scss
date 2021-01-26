@@ -1,14 +1,41 @@
 .header {
-  padding-top: 21px;
+  margin: 0 auto;
+  padding: 21px 0 15px 0;
+
+  @media screen and (max-width: 900px) {
+    width: 90%;
+  }
 
   &-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width: 900px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  &-logo {
+    @media screen and (max-width: 900px) {
+      width: 30%;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  }
+
+  &-nav {
+    @media screen and (max-width: 900px) {
+      width: 60%;
+    }
   }
 
   &-list {
     display: flex;
+
+    @media screen and (max-width: 900px) {
+      justify-content: space-around;
+    }
   }
 
   &-nav-item {
@@ -36,6 +63,10 @@
     display: flex;
     justify-content: space-between;
 
+    @media screen and (max-width: 900px) {
+      margin: 0 auto;
+    }
+
     &-list {
         display: flex;
         align-items: center;
@@ -54,6 +85,14 @@
       padding: 11px 37px;
       margin-right: 12px;
 
+      @media screen and (max-width: 1200px) {
+        padding: 8px 30px;
+      }
+
+      @media screen and (max-width: 900px) {
+        padding: 6px 25px;
+      }
+
       &:hover {
         background-color: $text-white;
       }
@@ -62,6 +101,7 @@
     &-up-btn {
       background-color: $bgc-color;
       color: $text-white;
+      text-transform: none;
 
       &:hover {
         color: $btn-color;
@@ -71,7 +111,7 @@
 
   &-languages {
     width: 54px;
-    justify-content: space-between;
+    justify-content: space-around;
 
     & a:hover {
       color: $btn-color;

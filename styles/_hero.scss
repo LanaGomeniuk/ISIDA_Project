@@ -1,14 +1,27 @@
 .hero {
 
+  @media screen and (max-width: 900px) {
+    padding-top: 10px;
+  }
+
   &-container {
     display: flex;
-    min-height: 605px;
-    max-width: 1126px;
+
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+      margin: 0 auto;
+    }
   }
 
   &-information {
     align-self: flex-end;
     width: 50%;
+
+    @media screen and (max-width: 900px) {
+      width: 70%;
+      text-align: center;
+      margin: 0 auto;
+    }
 
     &-title {
       margin-bottom: 27px;
@@ -19,56 +32,92 @@
       font-size: 2.14rem;
       font-weight: 700;
       color: $text-white;
+
+      @media screen and (max-width: 900px) {
+        font-size: 1.9rem;
+      }
     }
 
     &-text {
       font-size: 1.28rem;
       color: $text-grey;
       margin-bottom: 53px;
+
+      @media screen and (max-width: 900px) {
+        margin-bottom: 40px;
+      }
     }
   }
 
-  &-btn {
-    font-size: 1rem;
-    max-width: 339px;
-    height: 70px;
-    width: 100%;
-    margin-bottom: 66px;
-  }
-
-  &-video {
-    max-width: 277px;
-    min-height: 182px;
-  }
-
-  &-img {
-    position: relative;
-    background: url(../images/hero_img.png) center bottom no-repeat;
-    background-size: 240px 408px;
-    width: 50%;
-    margin-bottom: 5px;
-
-    &-cont {
+    &-btn {
+      font-size: 1rem;
+      max-width: 339px;
+      height: 70px;
       width: 100%;
-      position: absolute;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-position: center;
+      margin-bottom: 66px;
+
+      @media screen and (max-width: 900px) {
+        margin-bottom: 50px;
+        height: 55px;
+        width: 300px;
+      }
+    }
+
+    &-video {
+      max-width: 277px;
+      min-height: 182px;
+    }
+
+    &-img {
+      min-height: 605px;
+      position: relative;
+      background: url(../images/hero_img.png) center bottom no-repeat;
+      background-size: 41%;
+      width: 50%;
+      margin-bottom: 5px;
+
+      @media screen and (max-width: 1200px) {
+        min-height: 500px;
+        background-position-y: 240px;
+        background-size: 38%;
+      }
+
+      &-cont {
+        width: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+
+        @media screen and (max-width: 1200px) {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
       }
 
     &-text {
       text-align: center;
       font-size: 1.43rem;
+
+      @media screen and (max-width: 1200px) {
+        font-size: 1.2rem;
+      }
     }
 
     &-cont1 {
-      background: url(../images/hero_img_1.svg);
+      background-image: url(../images/hero_img_1.svg);
       max-width: 213px;
       height: 160px;
       top: 23%;
       left: -3%;
       padding-bottom: 20px;
+      
+      @media screen and (max-width: 1200px) {
+        width: 180px;
+        top: 26%;
+      }
 
         & p {
           max-width: 150px;
@@ -76,30 +125,47 @@
     }
 
     &-cont2 {
-      background: url(../images/hero_img_2.svg);
+      background-image: url(../images/hero_img_2.svg);
       max-width: 234px;
       height: 165px;
-      top: 0;
-      right: 225px;
+      top: 5%;
+      right: 34%;
       padding-bottom: 12px;
-    }
 
+      @media screen and (max-width: 1200px) {
+        width: 190px;
+        top: 6%;
+        right: 34%;
+      }
+    }
+    
     &-cont3 {
-      background: url(../images/hero_img_3.svg);
+      background-image: url(../images/hero_img_3.svg);
       max-width: 153px;
       height: 183px;
-      right: 26px;
-      top: 42px;
+      right: 4.5%;
+      top: 7%;
       padding-bottom: 20px;
+
+      @media screen and (max-width: 1200px) {
+        width: 120px;
+        right: 0;
+        top: 13%;
+      }
     }
 
     &-cont4 {
-      background: url(../images/hero_img_4.svg);
+      background-image: url(../images/hero_img_4.svg);
       max-width: 178px;
       height: 141px;
       right: 0;
       top: 45%;
       padding-bottom: 35px;
+
+      @media screen and (max-width: 1200px) {
+        width: 148px;
+        top: 42%;
+      }
     }
   }
 }
