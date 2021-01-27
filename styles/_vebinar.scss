@@ -1,0 +1,126 @@
+.vebinar {
+  padding-top: 72px;
+  margin: 0 auto;
+
+  &-title {
+    margin-bottom: 45px;
+  }
+
+  &-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &-title {
+      width: 333px;
+      margin-bottom: 8px;
+      font-weight: 600;
+      font-size: 1.14rem;
+      color: $text-white;
+    }
+
+    &-item {
+      position: relative;
+      width: 50%;
+      min-width: 580px;
+      height: 245px;
+      padding-left: 236px;
+      background-repeat: no-repeat;
+      background-position: left;
+      margin-bottom: 46px;
+
+      &-bgi1 {
+        background-image: url(../images/vebinar-img1.png);
+      }
+
+      &-bgi2 {
+        background-image: url(../images/vebinar-img2.png);
+      }
+
+      &-bgi3 {
+        background-image: url(../images/vebinar-img3.png);
+      }
+
+      &-bgi4 {
+        background-image: url(../images/vebinar-img4.png);
+      }
+
+      &-text {
+        margin-bottom: 8px;
+        color: $text-grey;
+
+        & span {
+          font-weight: 600;
+          border-bottom: $btn-color solid 2px;
+        }
+      }
+    }
+  }
+
+  &-description {
+    width: 333px;
+    color: $text-grey;
+    font-size: 0.928rem;
+    font-weight: 500;
+  }
+
+  &-date {
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 220px;
+    width: 100%;
+    color: $text-white;
+    font-weight: 500;
+    justify-content: space-between;
+
+    &-day {
+      margin-bottom: 16px;
+      position: relative;
+      padding-left: 26px;
+
+      &::before {
+        position: absolute;
+        content: "";
+        background-image: url(../images/vebinar-date.svg);
+        width: 19px;
+        height: 18px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    &-time {
+      margin-bottom: 16px;
+      position: relative;
+      padding-left: 26px;
+
+      &::before {
+        position: absolute;
+        content: "";
+        background-image: url(../images/vebinar-time.svg);
+        width: 18px;
+        height: 19px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  &-button {
+    width: 220px;
+    height: 60px;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  &-additional {
+    text-align: center;
+    text-decoration: underline;
+    color: $btn-color;
+    text-decoration-color: $btn-color;
+  }
+}

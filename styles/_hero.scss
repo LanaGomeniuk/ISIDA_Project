@@ -82,6 +82,11 @@
         background-size: 38%;
       }
 
+      @media screen and (max-width: 900px) {
+        margin: 0 auto;
+        width: 65%;
+      }
+
       &-cont {
         width: 100%;
         position: absolute;
@@ -119,6 +124,11 @@
         top: 26%;
       }
 
+      @media screen and (max-width: 900px) {
+        width: 146px;
+        top: 30%;
+      }
+
         & p {
           max-width: 150px;
         }
@@ -137,6 +147,11 @@
         top: 6%;
         right: 34%;
       }
+
+      @media screen and (max-width: 900px) {
+        width: 150px;
+        top: 10%;
+      }
     }
     
     &-cont3 {
@@ -152,6 +167,11 @@
         right: 0;
         top: 13%;
       }
+
+      @media screen and (max-width: 900px) {
+        width: 110px;
+        right: -5%;
+      }
     }
 
     &-cont4 {
@@ -165,6 +185,12 @@
       @media screen and (max-width: 1200px) {
         width: 148px;
         top: 42%;
+      }
+
+      @media screen and (max-width: 900px) {
+        width: 125px;
+        right: -3%;
+        top: 45%;
       }
     }
   }
