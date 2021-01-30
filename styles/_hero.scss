@@ -79,7 +79,7 @@
       @media screen and (max-width: 1200px) {
         min-height: 500px;
         background-position-y: 240px;
-        background-size: 38%;
+        background-size: 28%;
       }
 
       @media screen and (max-width: 900px) {
@@ -105,6 +105,7 @@
     &-text {
       text-align: center;
       font-size: 1.43rem;
+      color: #ffffff;
 
       @media screen and (max-width: 1200px) {
         font-size: 1.2rem;

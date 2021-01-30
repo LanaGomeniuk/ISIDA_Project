@@ -37,7 +37,7 @@
 
 html {
   font-size: 14px;
-  color: #ffffff;
+  color: #B9B9B9;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -377,7 +377,7 @@ html .container {
   .hero-img {
     min-height: 500px;
     background-position-y: 240px;
-    background-size: 38%;
+    background-size: 28%;
   }
 }
 
@@ -414,6 +414,7 @@ html .container {
 .hero-img-text {
   text-align: center;
   font-size: 1.43rem;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 1200px) {
@@ -591,7 +592,7 @@ html .container {
 }
 
 .vebinar {
-  padding-top: 72px;
+  padding: 72px 0 60px 0;
   margin: 0 auto;
 }
 
@@ -728,5 +729,102 @@ html .container {
   color: #E03435;
   -webkit-text-decoration-color: #E03435;
           text-decoration-color: #E03435;
+}
+
+.about {
+  padding-bottom: 50px;
+}
+
+.about-title {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-title {
+    margin-bottom: 0;
+  }
+}
+
+.about-list {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-list {
+    width: 50%;
+  }
+}
+
+.about-item {
+  width: 505px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 143px;
+  padding-left: 145px;
+  background-repeat: no-repeat;
+  background-position: 66px;
+}
+
+.about-item-img1 {
+  background-image: url(../images/1.png);
+}
+
+.about-item-img2 {
+  background-image: url(../images/2.png);
+}
+
+.about-item-img3 {
+  background-image: url(../images/3.png);
+}
+
+.about-item-img4 {
+  background-image: url(../images/4.png);
+}
+
+.about-item-img5 {
+  background-image: url(../images/5.png);
+}
+
+.about-item-img6 {
+  background-image: url(../images/6.png);
+}
+
+@media screen and (max-width: 1200px) {
+  .about-item {
+    height: 130px;
+  }
+  .about-item:nth-child(odd) {
+    border-bottom: 1px solid #7A0F0F;
+  }
+}
+
+.about-item:nth-child(-n+4) {
+  border-bottom: 1px solid #7A0F0F;
+}
+
+.about-item:nth-child(odd) {
+  border-right: 1px solid #7A0F0F;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-item:nth-child(odd) {
+    border-right: none;
+  }
+}
+
+.about-item span {
+  width: 340px;
 }
 /*# sourceMappingURL=main.css.map */
