@@ -827,4 +827,81 @@ html .container {
 .about-item span {
   width: 340px;
 }
+
+.sales {
+  padding-bottom: 65px;
+}
+
+.sales-title {
+  margin-bottom: 40px;
+}
+
+.sales-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sales-list-item {
+  padding-top: 183px;
+  position: relative;
+  height: 305px;
+  max-width: 574px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.sales-item-title {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.sales-item-title span {
+  font-weight: 800;
+}
+
+.sales-item-text {
+  color: #E03435;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.sales-item1 {
+  background-color: #1B3075;
+  color: #E4E4E4;
+  background-image: url(../images/sales-img1.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-y: 10px;
+}
+
+.sales-item1 h4 {
+  margin-bottom: 19px;
+}
+
+@media screen and (max-width: 1200px) {
+  .sales-item1 {
+    margin-bottom: 10px;
+  }
+}
+
+.sales-item2 {
+  background-color: #FAAD31;
+  color: #141922;
+}
+
+.sales-item2 h4 {
+  margin-bottom: 15px;
+}
+
+.sales-img {
+  position: absolute;
+  width: 554px;
+  height: 165px;
+  top: 10px;
+}
 /*# sourceMappingURL=main.css.map */
