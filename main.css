@@ -848,11 +848,12 @@ html .container {
 
 .sales-list-item {
   padding-top: 183px;
-  position: relative;
-  height: 305px;
   max-width: 574px;
   width: 100%;
   padding-left: 10px;
+  background-size: calc(100%-20px);
+  background-repeat: no-repeat;
+  background-position: center 10px;
 }
 
 .sales-item-title {
@@ -871,12 +872,10 @@ html .container {
 }
 
 .sales-item1 {
+  padding-bottom: 51px;
   background-color: #1B3075;
   color: #E4E4E4;
   background-image: url(../images/sales-img1.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-position-y: 10px;
 }
 
 .sales-item1 h4 {
@@ -890,8 +889,10 @@ html .container {
 }
 
 .sales-item2 {
+  padding-bottom: 21px;
   background-color: #FAAD31;
   color: #141922;
+  background-image: url(../images/sales-img2.png);
 }
 
 .sales-item2 h4 {
@@ -903,5 +904,72 @@ html .container {
   width: 554px;
   height: 165px;
   top: 10px;
+}
+
+.whom {
+  padding-bottom: 57px;
+}
+
+.whom-title {
+  margin-bottom: 37px;
+}
+
+.whom-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(277px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(277px, 1fr));
+  gap: 20px 20px;
+}
+
+.whom-list-item {
+  padding: 106px 0 28px;
+  border: 1px solid #2B2E35;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-position: center 40px;
+}
+
+.whom-list-item-title {
+  border-bottom: 2px solid #D20026;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  font-size: 1.14rem;
+  font-weight: 600;
+}
+
+.whom-img1 {
+  background-image: url(../images/whom1.svg);
+}
+
+.whom-img2 {
+  background-image: url(../images/whom2.svg);
+}
+
+.whom-img3 {
+  background-image: url(../images/whom3.svg);
+}
+
+.whom-img4 {
+  background-image: url(../images/whom4.svg);
+}
+
+.whom-img5 {
+  background-image: url(../images/whom5.svg);
+}
+
+.whom-img6 {
+  background-image: url(../images/whom6.svg);
+}
+
+.whom-img7 {
+  background-image: url(../images/whom7.svg);
+}
+
+.whom-img8 {
+  background-image: url(../images/whom8.svg);
 }
 /*# sourceMappingURL=main.css.map */

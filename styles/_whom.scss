@@ -1,0 +1,55 @@
+.whom {
+  padding-bottom: 57px;
+
+  &-title {
+    margin-bottom: 37px;
+  }
+
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(277px, 1fr));
+    gap: 20px 20px;
+
+    &-item {
+      padding: 106px 0 28px;
+      border: 1px solid #2B2E35;
+      border-radius: 3px;
+      background-repeat: no-repeat;
+      background-position: center 40px;
+
+      &-title {
+        border-bottom: 2px solid #D20026;
+        width: fit-content;
+        margin: 0 auto;
+        padding-bottom: 5px;
+        font-size: 1.14rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &-img1 {
+    background-image: url(../images/whom1.svg);
+  }
+  &-img2 {
+    background-image: url(../images/whom2.svg);
+  }
+  &-img3 {
+    background-image: url(../images/whom3.svg);
+  }
+  &-img4 {
+    background-image: url(../images/whom4.svg);
+  }
+  &-img5 {
+    background-image: url(../images/whom5.svg);
+  }
+  &-img6 {
+    background-image: url(../images/whom6.svg);
+  }
+  &-img7 {
+    background-image: url(../images/whom7.svg);
+  }
+  &-img8 {
+    background-image: url(../images/whom8.svg);
+  }
+}
