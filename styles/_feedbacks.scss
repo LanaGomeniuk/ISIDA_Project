@@ -1,0 +1,44 @@
+.feedbacks {
+  padding-bottom: 60px;
+
+  &-title {
+    margin-bottom: 40px;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &-item {
+      max-width: 574px;
+      margin-bottom: 40px;
+      padding: 38px 21px 35px 20px;
+      width: 48%;
+      background-color: #23272F;
+      border-radius: 3px;
+
+      &-title {
+        color: $text-white;
+        margin-bottom: 16px;
+        font-weight: 500;
+        border-left: 1px solid #D20026;
+        padding-left: 15px;
+      }
+
+      &-text {
+        margin-bottom: 27px;
+
+        &-author {
+          color: $text-white;
+          text-align: end;
+        }
+      }
+    }
+  }
+
+  &-button {
+    width: 250px;
+    height: 60px;
+  }
+}
