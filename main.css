@@ -908,8 +908,21 @@ html .container {
   padding-bottom: 57px;
 }
 
+@media screen and (max-width: 550px) {
+  .whom {
+    padding-bottom: 30px;
+  }
+}
+
 .whom-title {
   margin-bottom: 37px;
+}
+
+@media screen and (max-width: 550px) {
+  .whom-title {
+    margin-bottom: 10px;
+    font-size: 1.285rem;
+  }
 }
 
 .whom-list {
@@ -920,12 +933,31 @@ html .container {
   gap: 20px 20px;
 }
 
+@media screen and (max-width: 550px) {
+  .whom-list {
+    -ms-grid-columns: (2fr)[2];
+        grid-template-columns: repeat(2, 2fr);
+    gap: 10px 10px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
 .whom-list-item {
   padding: 106px 0 28px;
   border: 1px solid #2B2E35;
   border-radius: 3px;
   background-repeat: no-repeat;
   background-position: center 40px;
+}
+
+@media screen and (max-width: 550px) {
+  .whom-list-item {
+    padding: 63px 0 23px;
+    width: 145px;
+    background-size: 32px 32px;
+    background-position: center 20px;
+  }
 }
 
 .whom-list-item-title {
@@ -937,6 +969,16 @@ html .container {
   padding-bottom: 5px;
   font-size: 1.14rem;
   font-weight: 600;
+}
+
+@media screen and (max-width: 550px) {
+  .whom-list-item-title {
+    font-size: 0.857rem;
+    text-align: center;
+    border-bottom: none;
+    -webkit-text-decoration: 2px underline #D20026;
+            text-decoration: 2px underline #D20026;
+  }
 }
 
 .whom-img1 {
@@ -989,6 +1031,20 @@ html .container {
       justify-content: space-around;
 }
 
+@media screen and (max-width: 550px) {
+  .feedbacks-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .feedbacks-list-item {
   max-width: 574px;
   margin-bottom: 40px;
@@ -996,6 +1052,13 @@ html .container {
   width: 48%;
   background-color: #23272F;
   border-radius: 3px;
+}
+
+@media screen and (max-width: 550px) {
+  .feedbacks-list-item {
+    width: 100%;
+    margin-bottom: 36px;
+  }
 }
 
 .feedbacks-list-item-title {
@@ -1018,5 +1081,12 @@ html .container {
 .feedbacks-button {
   width: 250px;
   height: 60px;
+}
+
+@media screen and (max-width: 550px) {
+  .feedbacks-button {
+    width: 204px;
+    height: 40px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

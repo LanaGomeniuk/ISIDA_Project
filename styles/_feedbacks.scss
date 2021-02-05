@@ -10,6 +10,13 @@
     flex-wrap: wrap;
     justify-content: space-around;
 
+    @media screen and (max-width: 550px) {
+      flex-direction: column;
+      width: 300px;
+      margin: 0 auto;
+      align-items: center;
+    }
+
     &-item {
       max-width: 574px;
       margin-bottom: 40px;
@@ -17,6 +24,11 @@
       width: 48%;
       background-color: #23272F;
       border-radius: 3px;
+
+      @media screen and (max-width: 550px) {
+        width: 100%;
+        margin-bottom: 36px;
+      }
 
       &-title {
         color: $text-white;
@@ -40,5 +52,10 @@
   &-button {
     width: 250px;
     height: 60px;
+
+    @media screen and (max-width: 550px) {
+      width: 204px;
+      height: 40px;
+    }
   }
 }
