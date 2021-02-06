@@ -7,7 +7,7 @@ html {
   color: $text-grey;
   font-family: 'Montserrat', sans-serif;
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1220px) {
       font-size: 13px;
   }
 
@@ -45,7 +45,7 @@ html {
     max-width: 1170px;
     margin: 0 auto;
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1220px) {
         max-width: 90%;
       }
     }

@@ -41,7 +41,7 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
   html {
     font-size: 13px;
   }
@@ -84,7 +84,7 @@ html .container {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
   html .container {
     max-width: 90%;
   }
@@ -620,13 +620,23 @@ html .container {
 
 .vebinar-list-item {
   position: relative;
-  width: 50%;
-  min-width: 580px;
   height: 245px;
   padding-left: 236px;
   background-repeat: no-repeat;
   background-position: left;
   margin-bottom: 46px;
+}
+
+@media screen and (max-width: 1220px) {
+  .vebinar-list-item {
+    width: 560px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .vebinar-list-item {
+    height: 230px;
+  }
 }
 
 .vebinar-list-item-bgi1 {
@@ -656,7 +666,7 @@ html .container {
 }
 
 .vebinar-description {
-  width: 333px;
+  width: 330px;
   color: #B9B9B9;
   font-size: 0.928rem;
   font-weight: 500;
@@ -908,7 +918,7 @@ html .container {
   padding-bottom: 57px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .whom {
     padding-bottom: 30px;
   }
@@ -918,7 +928,7 @@ html .container {
   margin-bottom: 37px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .whom-title {
     margin-bottom: 10px;
     font-size: 1.285rem;
@@ -933,7 +943,7 @@ html .container {
   gap: 20px 20px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .whom-list {
     -ms-grid-columns: (2fr)[2];
         grid-template-columns: repeat(2, 2fr);
@@ -951,7 +961,7 @@ html .container {
   background-position: center 40px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .whom-list-item {
     padding: 63px 0 23px;
     width: 145px;
@@ -971,7 +981,7 @@ html .container {
   font-weight: 600;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .whom-list-item-title {
     font-size: 0.857rem;
     text-align: center;
@@ -1017,8 +1027,21 @@ html .container {
   padding-bottom: 60px;
 }
 
+@media screen and (max-width: 600px) {
+  .feedbacks {
+    padding-bottom: 30px;
+  }
+}
+
 .feedbacks-title {
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .feedbacks-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
 }
 
 .feedbacks-list {
@@ -1031,7 +1054,7 @@ html .container {
       justify-content: space-around;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .feedbacks-list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1054,10 +1077,11 @@ html .container {
   border-radius: 3px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .feedbacks-list-item {
     width: 100%;
-    margin-bottom: 36px;
+    margin-bottom: 30px;
+    text-align: center;
   }
 }
 
@@ -1069,8 +1093,25 @@ html .container {
   padding-left: 15px;
 }
 
+@media screen and (max-width: 600px) {
+  .feedbacks-list-item-title {
+    font-size: 1.2rem;
+    margin: 0 auto 9px;
+    white-space: nowrap;
+    width: 160px;
+  }
+}
+
 .feedbacks-list-item-text {
   margin-bottom: 27px;
+  color: #898989;
+}
+
+@media screen and (max-width: 600px) {
+  .feedbacks-list-item-text {
+    font-size: 1.08rem;
+    margin-bottom: 18px;
+  }
 }
 
 .feedbacks-list-item-text-author {
@@ -1078,13 +1119,147 @@ html .container {
   text-align: end;
 }
 
+@media screen and (max-width: 600px) {
+  .feedbacks-list-item-text-author {
+    text-align: center;
+  }
+}
+
 .feedbacks-button {
   width: 250px;
   height: 60px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .feedbacks-button {
+    width: 204px;
+    height: 40px;
+  }
+}
+
+.news {
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 600px) {
+  .news {
+    padding-bottom: 30px;
+  }
+}
+
+.news-title {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .news-title {
+    margin-bottom: 10px;
+    font-size: 1.285rem;
+  }
+}
+
+.news-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 972px;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+  .news-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news-list {
+    max-width: 300px;
+  }
+}
+
+.news-item {
+  margin-bottom: 40px;
+  padding: 235px 20px 26px;
+  min-width: 476px;
+  width: 49%;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  background-color: #23272f;
+}
+
+@media screen and (max-width: 600px) {
+  .news-item {
+    background-size: 300px 142px;
+    min-width: 300px;
+    padding: 164px 8px 35px;
+    margin-bottom: 25px;
+  }
+}
+
+.news-item-date {
+  font-size: 1.14rem;
+  color: #D20026;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .news-item-date {
+    font-size: 0.928rem;
+  }
+}
+
+.news-item-title {
+  font-size: 1.357rem;
+  font-weight: 500;
+  color: #FAFAFA;
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 600px) {
+  .news-item-title {
+    font-size: 1.5rem;
+  }
+}
+
+.news-img1 {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/news-img1.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/news-img1.png);
+}
+
+.news-img2 {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/news-img2.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/news-img2.png);
+}
+
+.news-button {
+  width: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .news-button {
+    width: 100%;
+  }
+}
+
+.news-button button {
+  width: 250px;
+  height: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  .news-button button {
     width: 204px;
     height: 40px;
   }

@@ -1,8 +1,17 @@
 .feedbacks {
   padding-bottom: 60px;
 
+  @media screen and (max-width: 600px) {
+    padding-bottom: 30px;
+  }
+
   &-title {
     margin-bottom: 40px;
+
+    @media screen and (max-width: 600px) {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
   }
 
   &-list {
@@ -10,7 +19,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
 
-    @media screen and (max-width: 550px) {
+    @media screen and (max-width: 600px) {
       flex-direction: column;
       width: 300px;
       margin: 0 auto;
@@ -25,9 +34,10 @@
       background-color: #23272F;
       border-radius: 3px;
 
-      @media screen and (max-width: 550px) {
+      @media screen and (max-width: 600px) {
         width: 100%;
-        margin-bottom: 36px;
+        margin-bottom: 30px;
+        text-align: center;
       }
 
       &-title {
@@ -36,14 +46,31 @@
         font-weight: 500;
         border-left: 1px solid #D20026;
         padding-left: 15px;
+
+        @media screen and (max-width: 600px) {
+          font-size: 1.2rem;
+          margin: 0 auto 9px;
+          white-space: nowrap;
+          width: 160px;
+        }
       }
 
       &-text {
         margin-bottom: 27px;
+        color: #898989;
+
+        @media screen and (max-width: 600px) {
+          font-size: 1.08rem;
+          margin-bottom: 18px;
+        }
 
         &-author {
           color: $text-white;
           text-align: end;
+
+          @media screen and (max-width: 600px) {
+            text-align: center;
+          }
         }
       }
     }
@@ -53,7 +80,7 @@
     width: 250px;
     height: 60px;
 
-    @media screen and (max-width: 550px) {
+    @media screen and (max-width: 600px) {
       width: 204px;
       height: 40px;
     }

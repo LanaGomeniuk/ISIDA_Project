@@ -21,13 +21,19 @@
 
     &-item {
       position: relative;
-      width: 50%;
-      min-width: 580px;
       height: 245px;
       padding-left: 236px;
       background-repeat: no-repeat;
       background-position: left;
       margin-bottom: 46px;
+
+      @media screen and (max-width: 1220px) {
+        width: 560px;
+      }
+
+      @media screen and (max-width: 900px) {
+        height: 230px;
+      }
 
       &-bgi1 {
         background-image: url(../images/vebinar-img1.png);
@@ -58,7 +64,7 @@
   }
 
   &-description {
-    width: 333px;
+    width: 330px;
     color: $text-grey;
     font-size: 0.928rem;
     font-weight: 500;
