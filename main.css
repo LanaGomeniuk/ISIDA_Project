@@ -943,6 +943,13 @@ html .container {
   gap: 20px 20px;
 }
 
+@media screen and (max-width: 900px) {
+  .whom-list {
+    -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
 @media screen and (max-width: 600px) {
   .whom-list {
     -ms-grid-columns: (2fr)[2];
@@ -1263,5 +1270,107 @@ html .container {
     width: 204px;
     height: 40px;
   }
+}
+
+.footer {
+  padding: 21px 0 27px;
+  background-color: #0D1016;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 30px 0 15px;
+  }
+}
+
+.footer-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #2B2E35;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-top {
+    margin-bottom: 21px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer-top-item {
+    width: 50%;
+    margin-bottom: 22px;
+  }
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  color: #FAFAFA;
+  font-size: 1.07rem;
+  font-weight: 500;
+}
+
+.footer-title span {
+  text-transform: uppercase;
+  color: #D20026;
+  font-weight: 700;
+}
+
+.footer-item-title {
+  color: #43454A;
+  font-weight: 600;
+  font-size: 0.928rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-item-link {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-item-link:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-bottom-item {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-bottom: 23px;
+  }
+}
+
+.footer-bottom-socialmedia:not(:last-child) {
+  margin-right: 13px;
 }
 /*# sourceMappingURL=main.css.map */
