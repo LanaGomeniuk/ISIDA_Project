@@ -23,8 +23,16 @@
       margin: 0 auto;
     }
 
+    @media screen and (max-width: 600px) {
+      width: 300px;
+    }
+
     &-title {
       margin-bottom: 27px;
+
+      @media screen and (max-width: 600px) {
+        margin-bottom: 18px;
+      }
     }
 
     &-header {
@@ -36,6 +44,10 @@
       @media screen and (max-width: 900px) {
         font-size: 1.9rem;
       }
+
+      @media screen and (max-width: 600px) {
+        font-size: 1.25rem;
+      }
     }
 
     &-text {
@@ -46,61 +58,83 @@
       @media screen and (max-width: 900px) {
         margin-bottom: 40px;
       }
+
+      @media screen and (max-width: 600px) {
+        width: 161px;
+        font-size: 1.083rem;
+        margin: 0 auto 25px;
+      }
     }
   }
 
-    &-btn {
-      font-size: 1rem;
-      max-width: 339px;
-      height: 70px;
+  &-btn {
+    font-size: 1rem;
+    max-width: 339px;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 66px;
+
+    @media screen and (max-width: 900px) {
+      margin-bottom: 50px;
+      height: 55px;
+      width: 300px;
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 257px;
+      height: 40px;
+      margin-bottom: 0;
+    }
+  }
+
+  &-video {
+    max-width: 277px;
+    min-height: 182px;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  &-img {
+    height: 605px;
+    position: relative;
+    background: url(../images/hero_img.png) center bottom no-repeat;
+    background-size: 41%;
+    width: 50%;
+    margin-bottom: 5px;
+
+    @media screen and (max-width: 1200px) {
+      height: 500px;
+      background-position-y: 240px;
+      background-size: 28%;
+    }
+
+    @media screen and (max-width: 900px) {
+      margin: 0 auto;
+      width: 65%;
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 300px;
+      max-height: 360px;
+      background: url(../images/hemo-img2.png) center bottom no-repeat;
+    }
+
+    &-cont {
       width: 100%;
-      margin-bottom: 66px;
-
-      @media screen and (max-width: 900px) {
-        margin-bottom: 50px;
-        height: 55px;
-        width: 300px;
-      }
-    }
-
-    &-video {
-      max-width: 277px;
-      min-height: 182px;
-    }
-
-    &-img {
-      min-height: 605px;
-      position: relative;
-      background: url(../images/hero_img.png) center bottom no-repeat;
-      background-size: 41%;
-      width: 50%;
-      margin-bottom: 5px;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-position: center;
 
       @media screen and (max-width: 1200px) {
-        min-height: 500px;
-        background-position-y: 240px;
-        background-size: 28%;
-      }
-
-      @media screen and (max-width: 900px) {
-        margin: 0 auto;
-        width: 65%;
-      }
-
-      &-cont {
-        width: 100%;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         background-position: center;
-
-        @media screen and (max-width: 1200px) {
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: contain;
-        }
+        background-repeat: no-repeat;
+        background-size: contain;
       }
+    }
 
     &-text {
       text-align: center;
@@ -109,6 +143,10 @@
 
       @media screen and (max-width: 1200px) {
         font-size: 1.2rem;
+      }
+
+      @media screen and (max-width: 600px) {
+        font-size: 1rem;
       }
     }
 
@@ -119,7 +157,7 @@
       top: 23%;
       left: -3%;
       padding-bottom: 20px;
-      
+
       @media screen and (max-width: 1200px) {
         width: 180px;
         top: 26%;
@@ -130,9 +168,19 @@
         top: 30%;
       }
 
-        & p {
-          max-width: 150px;
+      @media screen and (max-width: 600px) {
+        left: 0;
+        top: 70px;
+        width: 38%;
+      }
+
+      & p {
+        max-width: 150px;
+
+        @media screen and (max-width: 600px) {
+          width: 110px;
         }
+      }
     }
 
     &-cont2 {
@@ -153,8 +201,14 @@
         width: 150px;
         top: 10%;
       }
+
+      @media screen and (max-width: 600px) {
+        top: -5px;
+        left: 50px;
+        width: 45%;
+      }
     }
-    
+
     &-cont3 {
       background-image: url(../images/hero_img_3.svg);
       max-width: 153px;
@@ -172,6 +226,12 @@
       @media screen and (max-width: 900px) {
         width: 110px;
         right: -5%;
+      }
+
+      @media screen and (max-width: 600px) {
+        right: 30px;
+        top: 20px;
+        width: 28%;
       }
     }
 
@@ -192,6 +252,13 @@
         width: 125px;
         right: -3%;
         top: 45%;
+      }
+
+      @media screen and (max-width: 600px) {
+        width: 33%;
+        top: 140px;
+        right: 0;
+        padding-bottom: 20px;
       }
     }
   }

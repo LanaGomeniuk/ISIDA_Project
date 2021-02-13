@@ -1,8 +1,18 @@
 .sales {
   padding-bottom: 65px;
 
+  @media screen and (max-width: 600px) {
+    padding-bottom: 30px;
+  }
+
   &-title {
     margin-bottom: 40px;
+
+    @media screen and (max-width: 600px) {
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
   }
 
   &-list {
@@ -18,12 +28,27 @@
       background-size: calc(100%-20px);
       background-repeat: no-repeat;
       background-position: center 10px;
+
+      @media screen and (max-width: 900px) {
+        background-size: 97%;
+      }
+
+      @media screen and (max-width: 600px) {
+        padding: 102px 3px 0 5px;
+        max-width: 304px;
+        background-position: center 5px;
+      }
     }
   }
 
   &-item-title {
     font-weight: 300;
     font-size: 2rem;
+
+    @media screen and (max-width: 600px) {
+      font-size: 1.333rem;
+      margin-bottom: 10px;
+    }
 
     & span {
       font-weight: 800;
@@ -34,6 +59,10 @@
     color: $btn-color;
     text-decoration: underline;
     font-weight: 600;
+
+    @media screen and (max-width: 600px) {
+      font-weight: 400;
+    }
   }
 
   &-item1 {
@@ -41,6 +70,10 @@
     background-color: #1B3075;
     color: #E4E4E4;
     background-image: url(../images/sales-img1.png);
+
+    @media screen and (max-width: 600px) {
+      padding-bottom: 20px;
+    }
 
     & h4 {
       margin-bottom: 19px;
@@ -56,6 +89,10 @@
     background-color: #FAAD31;
     color: #141922;
     background-image: url(../images/sales-img2.png);
+
+    @media screen and (max-width: 600px) {
+      padding-bottom: 13px;
+    }
 
     & h4 {
       margin-bottom: 15px;

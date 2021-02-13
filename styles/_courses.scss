@@ -1,12 +1,21 @@
 .courses {
   padding-top: 60px;
 
+  @media screen and (max-width: 600px) {
+    padding-top: 30px;
+  }
+
   &-container {
     width: 1173px;
   }
 
   &-title {
     margin-bottom: 40px;
+
+    @media screen and (max-width: 600px) {
+      margin-bottom: 20px;
+      font-size: 1.25rem;
+    }
   }
 
   &-list {

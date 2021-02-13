@@ -25,8 +25,8 @@
 
     @media screen and (max-width: 600px) {
       grid-template-columns: repeat(2, 2fr);
-      gap: 10px 10px;
       max-width: 300px;
+      gap: 10px;
       margin: 0 auto;
     }
 
@@ -39,7 +39,8 @@
 
       @media screen and (max-width: 600px) {
         padding: 63px 0 23px;
-        width: 145px;
+        height: 123px;
+        max-width: 145px;
         background-size: 32px 32px;
         background-position: center 20px;
       }
