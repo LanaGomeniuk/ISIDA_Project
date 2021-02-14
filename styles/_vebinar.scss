@@ -2,6 +2,10 @@
   padding: 72px 0 60px 0;
   margin: 0 auto;
 
+  @media screen and (max-width: 600px) {
+    padding: 30px 0 30px 0;
+  }
+
   &-title {
     margin-bottom: 45px;
 
@@ -31,14 +35,18 @@
     }
 
     &-title1 {
-      display: none;
+      
+      @media screen and (max-width: 600px) {
+        display: none;
+      }
+
     }
 
     &-title2 {
-      visibility: hidden;
+      display: none;
 
       @media screen and (max-width: 600px) {
-        visibility: visible;
+        display: block;
         margin: 0 auto 10px;
         width: 257px;
         font-weight: 600;
@@ -55,12 +63,14 @@
       background-position: left;
       margin-bottom: 46px;
 
-      @media screen and (max-width: 1220px) {
+      @media screen and (max-width: 1200px) {
         width: 560px;
+        margin-bottom: 30px;
       }
 
       @media screen and (max-width: 900px) {
         height: 230px;
+        margin-bottom: 25px;
       }
 
       @media screen and (max-width: 600px) {
