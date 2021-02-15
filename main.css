@@ -457,7 +457,7 @@ html .container {
 .hero-img {
   height: 605px;
   position: relative;
-  background: url("../images/hero_img.png") center bottom no-repeat;
+  background: url("./images/hero_img.png") center bottom no-repeat;
   background-size: 41%;
   width: 50%;
   margin-bottom: 5px;
@@ -528,7 +528,7 @@ html .container {
 }
 
 .hero-img-cont1 {
-  background-image: url(../images/hero_img_1.svg);
+  background-image: url(./images/hero_img_1.svg);
   max-width: 213px;
   height: 160px;
   top: 23%;
