@@ -482,7 +482,7 @@ html .container {
   .hero-img {
     width: 300px;
     max-height: 360px;
-    background: url(../images/hemo-img2.png) center bottom no-repeat;
+    background: url(./images/hemo-img2.png) center bottom no-repeat;
   }
 }
 
