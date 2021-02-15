@@ -569,7 +569,7 @@ html .container {
 }
 
 .hero-img-cont2 {
-  background-image: url(../images/hero_img_2.svg);
+  background-image: url(./images/hero_img_2.svg);
   max-width: 234px;
   height: 165px;
   top: 5%;
@@ -601,7 +601,7 @@ html .container {
 }
 
 .hero-img-cont3 {
-  background-image: url(../images/hero_img_3.svg);
+  background-image: url(./images/hero_img_3.svg);
   max-width: 153px;
   height: 183px;
   right: 4.5%;
@@ -633,7 +633,7 @@ html .container {
 }
 
 .hero-img-cont4 {
-  background-image: url(../images/hero_img_4.svg);
+  background-image: url(./images/hero_img_4.svg);
   max-width: 178px;
   height: 141px;
   right: 0;
@@ -724,19 +724,19 @@ html .container {
 }
 
 .courses-img1 {
-  background: url(../images/courses-img1.png) center top no-repeat;
+  background: url(./images/courses-img1.png) center top no-repeat;
 }
 
 .courses-img2 {
-  background: url(../images/courses-img2.png) center top no-repeat;
+  background: url(./images/courses-img2.png) center top no-repeat;
 }
 
 .courses-img3 {
-  background: url(../images/courses-img3.png) center top no-repeat;
+  background: url(./images/courses-img3.png) center top no-repeat;
 }
 
 .courses-img4 {
-  background: url(../images/courses-img4.png) center top no-repeat;
+  background: url(./images/courses-img4.png) center top no-repeat;
 }
 
 .courses-btn {
@@ -851,18 +851,18 @@ html .container {
 }
 
 .vebinar-list-item-bgi1 {
-  background-image: url(../images/vebinar-img1.png);
+  background-image: url(./images/vebinar-img1.png);
 }
 
 @media screen and (max-width: 600px) {
   .vebinar-list-item-bgi1 {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/vebinar-img1.png);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/vebinar-img1.png);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(./images/vebinar-img1.png);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/vebinar-img1.png);
   }
 }
 
 .vebinar-list-item-bgi2 {
-  background-image: url(../images/vebinar-img2.png);
+  background-image: url(./images/vebinar-img2.png);
 }
 
 @media screen and (max-width: 600px) {
@@ -873,7 +873,7 @@ html .container {
 }
 
 .vebinar-list-item-bgi3 {
-  background-image: url(../images/vebinar-img3.png);
+  background-image: url(./images/vebinar-img3.png);
 }
 
 @media screen and (max-width: 600px) {
@@ -884,13 +884,13 @@ html .container {
 }
 
 .vebinar-list-item-bgi4 {
-  background-image: url(../images/vebinar-img4.png);
+  background-image: url(./images/vebinar-img4.png);
 }
 
 @media screen and (max-width: 600px) {
   .vebinar-list-item-bgi4 {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/vebinar-img4.png);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/vebinar-img4.png);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(./images/vebinar-img4.png);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/vebinar-img4.png);
   }
 }
 
@@ -974,7 +974,7 @@ html .container {
 .vebinar-date-day::before {
   position: absolute;
   content: "";
-  background-image: url(../images/vebinar-date.svg);
+  background-image: url(./images/vebinar-date.svg);
   width: 19px;
   height: 18px;
   left: 0;
@@ -999,7 +999,7 @@ html .container {
 .vebinar-date-time::before {
   position: absolute;
   content: "";
-  background-image: url(../images/vebinar-time.svg);
+  background-image: url(./images/vebinar-time.svg);
   width: 18px;
   height: 19px;
   left: 0;
@@ -1248,7 +1248,7 @@ html .container {
   padding-bottom: 51px;
   background-color: #1B3075;
   color: #E4E4E4;
-  background-image: url(../images/sales-img1.png);
+  background-image: url(./images/sales-img1.png);
 }
 
 @media screen and (max-width: 600px) {
@@ -1271,7 +1271,7 @@ html .container {
   padding-bottom: 21px;
   background-color: #FAAD31;
   color: #141922;
-  background-image: url(../images/sales-img2.png);
+  background-image: url(./images/sales-img2.png);
 }
 
 @media screen and (max-width: 600px) {
@@ -1377,35 +1377,35 @@ html .container {
 }
 
 .whom-img1 {
-  background-image: url(../images/whom1.svg);
+  background-image: url(./images/whom1.svg);
 }
 
 .whom-img2 {
-  background-image: url(../images/whom2.svg);
+  background-image: url(./images/whom2.svg);
 }
 
 .whom-img3 {
-  background-image: url(../images/whom3.svg);
+  background-image: url(./images/whom3.svg);
 }
 
 .whom-img4 {
-  background-image: url(../images/whom4.svg);
+  background-image: url(./images/whom4.svg);
 }
 
 .whom-img5 {
-  background-image: url(../images/whom5.svg);
+  background-image: url(./images/whom5.svg);
 }
 
 .whom-img6 {
-  background-image: url(../images/whom6.svg);
+  background-image: url(./images/whom6.svg);
 }
 
 .whom-img7 {
-  background-image: url(../images/whom7.svg);
+  background-image: url(./images/whom7.svg);
 }
 
 .whom-img8 {
-  background-image: url(../images/whom8.svg);
+  background-image: url(./images/whom8.svg);
 }
 
 .feedbacks {
@@ -1612,13 +1612,13 @@ html .container {
 }
 
 .news-img1 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/news-img1.png);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/news-img1.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(./images/news-img1.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./images/news-img1.png);
 }
 
 .news-img2 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../images/news-img2.png);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/news-img2.png);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(./images/news-img2.png);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./images/news-img2.png);
 }
 
 .news-button {
