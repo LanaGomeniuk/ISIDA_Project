@@ -23,9 +23,9 @@
     justify-content: center;
 
     @media screen and (max-width: 1200px) {
-        flex-wrap: wrap;
-        width: 80%;
-        margin: 0 auto;
+      flex-wrap: wrap;
+      width: 80%;
+      margin: 0 auto;
     }
 
     &-item {
@@ -34,6 +34,7 @@
       padding-top: 180px;
       width: 100%;
       margin-bottom: 32px;
+      background-color: #23272F;
 
       & p {
         margin-bottom: 41px;
